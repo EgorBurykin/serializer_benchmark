@@ -22,7 +22,7 @@ Scenario 1:
 Jett serializer is ~ 2.6x faster
 
 Scenario 2:
- * Web-socket daemon (continues execution)
+ * Web-socket daemon (continuous execution)
  * One entity to serialize
  * Entity is loaded to doctrine cache once
 Jett serializer is ~ 12.8x faster
@@ -34,7 +34,7 @@ Scenario 3:
 Jett serializer is ~ 4.6x faster
 
 Scenario 4:
- * Web-socket daemon (continues execution)
+ * Web-socket daemon (continuous execution)
  * Collection of entities to serialize
  * Collection is loaded to doctrine cache once
 Jett serializer is ~ 13.5x faster
