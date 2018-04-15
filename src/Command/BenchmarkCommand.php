@@ -70,15 +70,6 @@ class BenchmarkCommand extends Command
         return $time;
     }
 
-    /**
-     * This is general scenario.
-     * - Run-and-die process.
-     * - One entity to serialize
-     * - Entity is not loaded to doctrine cache.
-     *
-     * @param $times
-     * @return float
-     */
     public function singleItemBenchmark($times = 1)
     {
         //Order here does not matter because we cleared cache
@@ -135,7 +126,7 @@ class BenchmarkCommand extends Command
         // Scenario 2
         $this->printScenario($output, [
             'Scenario 2:',
-            ' * Web-socket daemon (continues execution)',
+            ' * Web-socket daemon (continuous execution)',
             ' * One entity to serialize',
             ' * Entity is loaded to doctrine cache once'
         ]);
@@ -163,7 +154,7 @@ class BenchmarkCommand extends Command
         // Scenario 4
         $this->printScenario($output, [
             'Scenario 4:',
-            ' * Web-socket daemon (continues execution)',
+            ' * Web-socket daemon (continuous execution)',
             ' * Collection of entities to serialize',
             ' * Collection is loaded to doctrine cache once'
         ]);
