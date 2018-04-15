@@ -1,0 +1,21 @@
+jett_json_entity_serializer:
+    entities:
+        App\Entity\User:
+            samples:
+                default: >
+                    {
+                        "id": "",
+                        "name": "",
+                        "email": "",
+                        "organization": {
+                            "id": "",
+                            "title": ""
+                        },
+                        "groups": {
+                            "id": "",
+                            "title": ""
+                        }
+                    }
+
+        App\Entity\Organization:
+        App\Entity\Group:

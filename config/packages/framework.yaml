@@ -1,0 +1,5 @@
+framework:
+    secret: '047bfeb9318d8b7e380cf1693b2911e0'
+    php_errors:
+        log: true
+

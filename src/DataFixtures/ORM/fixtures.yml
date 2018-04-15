@@ -1,0 +1,76 @@
+App\Entity\Group:
+    group_{manager, employee, programmer, support, security, parking, disabled, director, guest}:
+        title: '<current()>'
+
+App\Entity\Organization:
+    organization1:
+        title: 'Awesome IT company ltd.'
+
+App\Entity\User:
+    user{1..30}:
+        name: '<name()>'
+        email: '<email()>'
+        organization: '@organization1'
+        groups:
+            - '@group_employee'
+            - '@group_support'
+
+    user{31..45}:
+        name: '<name()>'
+        email: '<email()>'
+        organization: '@organization1'
+        groups:
+            - '@group_employee'
+            - '@group_programmer'
+            - '@group_manager'
+
+    user{46..50}:
+        name: '<name()>'
+        email: '<email()>'
+        organization: '@organization1'
+        groups:
+            - '@group_employee'
+            - '@group_manager'
+
+    user{41..50}:
+        name: '<name()>'
+        email: '<email()>'
+        organization: '@organization1'
+        groups:
+            - '@group_employee'
+            - '@group_programmer'
+            - '@group_parking'
+
+    user{50..55}:
+        name: '<name()>'
+        email: '<email()>'
+        organization: '@organization1'
+        groups:
+            - '@group_employee'
+            - '@group_security'
+            - '@group_parking'
+
+    user56:
+        name: '<name()>'
+        email: '<email()>'
+        organization: '@organization1'
+        groups:
+            - '@group_employee'
+            - '@group_parking'
+            - '@group_disabled'
+            - '@group_programmer'
+
+    user57:
+        name: '<name()>'
+        email: '<email()>'
+        organization: '@organization1'
+        groups:
+            - '@group_employee'
+            - '@group_parking'
+            - '@group_director'
+
+    user{57..100}:
+        name: '<name()>'
+        email: '<email()>'
+        groups:
+            - '@group_guest'
