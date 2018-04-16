@@ -1013,16 +1013,16 @@
         },
         {
             "name": "jett/entity_serializer",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EgorBurykin/entity_serializer.git",
-                "reference": "516c0e6d39f704c67138f5366a3a212ab8e676c1"
+                "reference": "ca08e956f305d90e0e730040daad9838fd18aef8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EgorBurykin/entity_serializer/zipball/516c0e6d39f704c67138f5366a3a212ab8e676c1",
-                "reference": "516c0e6d39f704c67138f5366a3a212ab8e676c1",
+                "url": "https://api.github.com/repos/EgorBurykin/entity_serializer/zipball/ca08e956f305d90e0e730040daad9838fd18aef8",
+                "reference": "ca08e956f305d90e0e730040daad9838fd18aef8",
                 "shasum": ""
             },
             "require": {
@@ -1053,10 +1053,10 @@
             ],
             "description": "Serializer for Doctrine 2 entities with single column key 'id' to JSON",
             "support": {
-                "source": "https://github.com/EgorBurykin/entity_serializer/tree/1.2.0",
+                "source": "https://github.com/EgorBurykin/entity_serializer/tree/1.2.1",
                 "issues": "https://github.com/EgorBurykin/entity_serializer/issues"
             },
-            "time": "2018-04-16T14:53:31+00:00"
+            "time": "2018-04-16T19:14:54+00:00"
         },
         {
             "name": "myclabs/deep-copy",

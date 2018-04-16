@@ -64,7 +64,7 @@ class BenchmarkCommand extends Command
         $time = microtime(true) - $time;
 
         if ($jett) {
-            $this->jettSerializer->cleanCache();
+            $this->jettSerializer->clearCache();
         }
 
         return $time;
